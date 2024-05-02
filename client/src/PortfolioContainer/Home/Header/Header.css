@@ -1,6 +1,6 @@
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   height: 149px;
   color: var(--white);
 }

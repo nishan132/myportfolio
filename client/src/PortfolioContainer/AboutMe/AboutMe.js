@@ -16,7 +16,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "React developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong engineering professional with a Bachelor's degree focused in Information Technology from Tribhuvan University. ",
     highlights: {
       bullets: [
         "Full Stack web and mobile development",
@@ -55,7 +55,7 @@ export default function AboutMe(props) {
               {renderHighlight()}
             </div>
             <div className="about-me-options">
-              <button className="btn primary-btn"> Hire Me </button>
+              {/* <button className="btn primary-btn"> Hire Me </button> */}
               <a href="nishancv.pdf" download="Nishan CV.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>

@@ -125,7 +125,7 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Worked as MERN stack web developer
+            Worked as Web developer
           </span>
         </div>
         <div className="experience-description">
@@ -133,7 +133,7 @@ const Resume = (props) => {
             - Worked on remittance website for client with the dashboard for
             managing the products, managing reviews, users, payment etc. .
           </span>
-          <br />
+          {/* <br />
           <span className="resume-description-text">
             - Integrated the web app with backend services to create new user
             onboarding application with dynamic form content.{" "}
@@ -143,7 +143,7 @@ const Resume = (props) => {
             - I stretch my mental capacity to develope UI as per the given
             designs.
           </span>
-          <br />
+          <br /> */}
         </div>
       </div>
     </div>,
@@ -183,17 +183,17 @@ const Resume = (props) => {
 
     /* Interests */
     <div className="resume-screen-container" key="interests">
-      <ResumeHeading
+      {/* <ResumeHeading
         heading="Teaching"
         description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
-      />
+      /> */}
+        <ResumeHeading
+          heading="Gaming"
+          description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        />
       <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
-      />
-      <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        description="Listening to  music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
       />
     </div>,
   ];
